@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LZY.Common\LZY.Common.csproj" />
+    <ProjectReference Include="..\LZY.Entities\LZY.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
