@@ -43,7 +43,7 @@ namespace LZY.IdentityServer4
                     ClientId = "mvc client",
                     ClientName = "api1",
 
-                    AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
+                    AllowedGrantTypes = GrantTypes.Code,
                     ClientSecrets = { new Secret("mvc secret".Sha256()) },
 
                     RedirectUris = { "http://localhost:5002/signin-oidc" },
